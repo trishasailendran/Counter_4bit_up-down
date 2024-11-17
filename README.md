@@ -81,6 +81,9 @@ Select Multiple Step and then select “Create cds.lib File” as shown in below
 
 Click the cds.lib file and save the file by clicking on Save option
 
+![image](https://github.com/user-attachments/assets/2ede0026-f597-4957-ae23-808907640b26)
+
+
 ## Fig 4: cds.lib file Creation
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
@@ -88,6 +91,9 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+
+![image](https://github.com/user-attachments/assets/92af724f-9fb1-4b8c-ac19-674601800f07)
+
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,6 +104,9 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+
+![Screenshot (239)](https://github.com/user-attachments/assets/56b1df85-1753-432e-83e6-5d5ddc14f27f)
+
 
 ## Fig 6: Nclaunch Window
 
@@ -132,6 +141,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
+![Screenshot (240)](https://github.com/user-attachments/assets/b05572a5-af66-465a-beea-9fb788345092)
+
+
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 
 	Inputs: Top level design / test bench Verilog codes
@@ -152,7 +164,12 @@ It contains statements that map logical library names to their physical director
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
+![Screenshot (241)](https://github.com/user-attachments/assets/77d31427-53ca-4275-bac9-03e8f888debb)
+
+
 ## Fig 8: Elaboration Launch Option
+
+![Screenshot (242)](https://github.com/user-attachments/assets/2f6ee05c-354e-42d8-9d24-ec54b999308b)
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -165,10 +182,14 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/1e31277a-4865-49f0-a901-779d0625a3b0)
+
 
 ## Fig 10: Simulation Waveform Window
 
 ## Fig 11: Simulation Waveform Window
+![Screenshot (244)](https://github.com/user-attachments/assets/9e13c5c2-639f-42e8-b808-ff9b493a9360)
+
 
 ### Result
 
